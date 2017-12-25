@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="jQuery-3.2.1.slim.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){			
+			$('input[name="user"]').blur(function(){
+				var span=document.getElementsByTagName('span');
+				var $sp=$(span[0]);
+				if($('input[name="user"]').val()=='')
+				{	
+					if(span.length==0)
+					{	
+						$('input[name="user"]').after('<span style="color:red;">用户名不能为空</span>');
+					}					
+				}
+				else
+				{
+					$sp.remove();
+				}
+			});
+			$('input[name="pw"]').blur(function(){
+				var pws=document.getElementsByTagName('span');
+				var $pws=$(pws[0]);
+				if($('input[name="pw"]').val()=='')
+				{
+					if(pws.length==0)
+					{
+						$('input[name="pw"]').after('<span style="color:red;">密码不能为空</span>');
+					}
+				}
+				else
+				{
+					$pws.remove();
+				}
+				$('input[name="cpw"]').blur(function(){
+					var cpws=document.getElementsByTagName('span');
+					var $cpws=$(cpws[0]);
+					if($('input[name="pw"]').val()!=$('input[name="cpw"]').val())
+					{
+						if(cpws.length==0)
+						{
+							$('input[name="cpw"]').after('<span style="color:red;">密码与确认密码不一致</span>');
+						}						
+					}
+					else
+					{
+						$cpws.remove();
+					}
+				
+				});
+			});
+
+		})
+	</script>
+</head>
+<body>
+	<h1>用户注册</h1>
+	<table border="2px">
+		<tr>
+			<td align="right">用户名：</td>
+			<td><input type="text" name="user"></td>
+		</tr>
+		<tr>
+			<td align="right">密码：</td>
+			<td><input type="text" name="pw" ></td>
+		</tr>
+		<tr>
+			<td align="right">确认密码：</td>
+			<td><input type="text" name="cpw"></td>
+		</tr>
+		<tr>
+			<td colspan="2"  align="center"><input type="button" name="注册" value="注册" onclick=""></td>
+		</tr>
+	</table>
+</body>
+</html>
