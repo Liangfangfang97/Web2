@@ -1,0 +1,245 @@
+*{
+	/*text-align: center;*/
+	font-size: 14px;
+	color: #522a06;
+	padding: 0px;
+	font-family: "宋体"
+}
+body{
+	width: 1222px;
+	margin: 0px;
+	padding: 0px;
+}
+ul,li{
+	list-style-type: none;
+
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+.wrap{
+	width: 1222px;
+	border: 0px;
+	margin: 2px;
+	padding: 0px;
+}
+.header{
+	width: 1222px;
+	height: 250px;
+	text-align: center;
+	background-image: url(image/book.jpg);
+	background-repeat: no-repeat;
+}
+.banner{
+	width: 1222px;
+	height: 220px;
+	margin: 0 ;	
+}
+.logo{
+	position: absolute;
+	left: 10px;
+	top: 50px;
+}
+.nav{
+	width: 1222px;
+	height: 70px;
+	background-image: url(image/timg.jpg);
+}
+#nav a:link {
+	display: block; /*改变为块级元素*/
+	width: 80px;
+	text-align: center;
+	color: #666; 
+	text-decoration: none;
+}					
+#nav a:hover {
+	color: #FFF;
+	text-decoration: underline;
+	font-weight: bold;
+	background:#6495ED;
+}
+#nav {
+	margin-top: 20px;
+	margin-left: 50px;
+	line-height: 24px; 
+	list-style-type: none; 
+	background: #6495ED;
+}
+#nav li {
+	float: left; 
+	width: 150px; 
+	height: 30px;
+	background: #6495ED;
+}					
+#nav li ul {
+	line-height: 27px;
+	list-style-type: none;
+	text-align: left;						
+	width: 180px; 						
+	display: none;
+}
+#nav li ul li{
+	float: left; 
+	width: 100px;						
+}
+#nav li ul a:link {
+	display: block; 
+	width: 75px;
+	text-align: left;
+	padding-left: 24px;
+	color: #666;
+}							
+#nav li ul a:hover {
+	color: #F3F3F3;
+	text-decoration: underline;
+	font-weight: normal;
+	background: #C00;
+}
+#nav li.sfhover ul {						
+	display: block;
+	position: absolute;
+}
+.nav_body{
+	width: 1000px;
+	text-align: center;
+}
+.nav_content{
+	line-height: 40px;
+	color: #fff;
+	height: 38px;
+	position: absolute;
+	left: 150px;
+	top: 204px;
+}
+.nav_search{
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	left:870px;
+	top: 243px;
+	float: left;
+}
+.nav_search_1{
+	width: 50px;
+	height:33px; 
+	position: absolute;
+	left: 256px;
+}
+.text{
+	width: 300px;
+	height: 30px;
+	float: left;
+}
+.content{
+	width: 1222px;
+	float: left;	
+}
+.content_left{
+	width: 500px;
+	height: 320px;
+	background-image: url(image/content.jpg);
+	position: absolute;
+	left: 160px;
+	top: 380px;
+	float: left;
+	background-repeat: no-repeat;
+}
+.content_right{
+	width: 400px;
+	height: 340px;
+	background-image: url(image/enter.jpg);
+	float: left;
+	position: absolute;
+	left: 675px;
+	top: 335px;
+	text-align: center;
+}
+#DL{
+	position: absolute;
+	left: 100px;
+	top: 90px;
+}
+.word{
+	position: absolute;
+	left: 285px;
+	top: 55px;
+}
+.word_1{
+	position: absolute;
+	left: 260px;
+	top: 75px
+}
+.word_2{
+	position: absolute;
+	left: 260px;
+	top: 95px;
+}
+.word_3{
+	position: absolute;
+	left: 260px;
+	top: 115px;
+}
+.word_4{
+	position: absolute;
+	left: 260px;
+	top: 135px;
+}
+.word_5{
+	position: absolute;
+	left: 260px;
+	top: 155px;
+}
+.word_6{
+	position: absolute;
+	left: 378px;
+	top: 175px;
+}
+.form{
+	width: 300px;
+	text-align: right;
+	position: relative;
+	right: -85px;
+	top: 120px;
+
+}
+.enter{
+	position: relative;
+	top: 100px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#pas{
+	position: relative;
+	right: -15px; 
+}
+.content_center{
+	position: absolute;
+	left: 160px;
+	top: 720px;
+	font-size: 35px;
+	font-weight: bold;
+}
+#content_buttom{
+	border-top:1px solid black;
+	width: 850px;
+	height: 270px;
+	white-space: nowrap;
+	overflow: hidden;
+	position: absolute;
+	left: 160px;
+	top: 755px;
+}	
+.book{
+	margin: 25px;
+}
+.footer{
+	width: 1225px;
+	height: 100px;
+	text-align: center;
+	background-image: url(image/footer.jpg); 
+	position: absolute;	
+	top:1090px;      
+}
