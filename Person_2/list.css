@@ -1,0 +1,209 @@
+*{
+	font-size: 14px;
+	color: #522a06;
+	padding: 0px;
+	font-family: "宋体"
+}
+body{
+	width: 1225px;
+	margin: 0px;
+	padding: 0px;
+}
+ul,li{
+	list-style-type: none;
+
+}
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+}
+.wrap{
+	width: 1225px;
+	border: 0px;
+	margin: 2px;
+	padding: 0px;
+	text-align: center;
+}
+.header{
+	width: 1225px;
+	height: 205px;
+	text-align: center;
+	background-image: url(image/book.jpg);
+	background-repeat: no-repeat;
+}
+.banner{
+	width: 1225px;
+	height: 200px;
+	margin: 0 ;	
+}
+.logo{
+	position: absolute;
+	left: 10px;
+	top: 60px;
+}
+.nav{
+	width: 1225px;
+	height: 40px;
+	background-image: url(image/timg.jpg);
+}
+.nav_body{
+	width: 1000px;
+	text-align: center;
+}
+.nav_content{
+	line-height: 40px;
+	color: #fff;
+	height: 38px;
+	position: absolute;
+	left: 150px;
+	top: 204px;
+}
+.nav_search{
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	left:870px;
+	top: 213px;
+	float: left;
+}
+.nav_search_1{
+	position: absolute;
+	left: 156px;
+}
+.text{
+	float: left;
+}
+.content{
+	width: 1000px;
+	position: absolute;
+	top: 245px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px;
+	float: left;
+}
+.content_left{
+	width: 200px;
+	margin: 0 auto;
+	padding: 0px;
+	position: absolute;
+	left: 125px;
+	float: left;
+}
+.first{
+	width: 200px;
+	font-weight: bold;
+}
+.content_1{
+	width: 200px;
+	height: 560px;
+	border: 1px solid blue;
+	background-color: #87CEEB;
+	position: absolute;
+	left: 25px;
+	top: 40px;
+}
+.book{
+	padding: 15px;
+	font-size: 22px;
+	background-color: #BA55D3;
+}
+.book_1{
+	text-align: left;
+	line-height: 22px
+}
+.content_left_bottom{
+	width: 200px;
+	height: 350px;
+	background-image: url(image/bg.jpg);
+	float: left;
+	position: absolute;
+	left: 25px;
+	top: 640px;
+}
+.word{
+	float: left;
+	position: absolute;
+	left: 5px;
+	top: 80px;
+	margin: 0px;
+	padding: 0px;
+}
+.lately{
+	float: left;
+	line-height: 32px;
+	position: absolute;
+	top: 125px;
+
+}
+.content_right{
+	width: 720px;
+	height: 800px;
+	position: absolute;
+	left: 365px;
+	top: 55px;
+	float: left;
+}
+.theme{
+	font-weight: bold;
+	font-size: 2em;
+	color: red;
+	position: absolute;
+	left: 150px;
+	margin-bottom: 15px;
+}
+.hot{
+	width: 700px;
+	text-align: left;
+	position: absolute;
+	left: 12px;
+	top: 215px;
+	float: left;
+	margin: 0px;
+}
+.hot_1{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 15px;
+}
+img{
+	padding: 8px;
+}
+.bian{
+	width: 215px;
+	height: 390px;
+	border-right: 1px solid grey;
+	float: left;
+	margin: 8px;
+	margin-bottom: 20px;
+}
+.name{
+	text-align: left;
+	line-height: 20px;
+	margin: 15px;
+}
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+	position: relative;
+	left: 16px;
+	top: -7px;
+}
+.number{
+	position: absolute;
+	left: 165px;
+	top: 975px;
+	font-weight: bold;
+}
+.footer{
+	width: 1225px;
+	height: 100px;
+	text-align: center;
+	background-image: url(image/footer.jpg); 
+	position: absolute;	
+	top:1550px;      
+}
